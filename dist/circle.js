@@ -10,6 +10,10 @@ define(function() {
 				x: x + radius * Math.sin(angle),
 				y: y + radius * Math.cos(angle)
 			};
+		},
+		getAngle: function(value, dataTotal, totalSize) {
+			totalSize = (typeof totalSize === 'undefined') ? this.whole : totalSize;
+			return (totalSize / dataTotal) * value;
 		}
 	}
 });
