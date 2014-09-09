@@ -1,5 +1,5 @@
 define(function() {
-	return = {
+	return {
 		tenth: Math.PI * 1/5,
 		eighth: Math.PI * 1/4,
 		quarter: Math.PI * 1/2,
