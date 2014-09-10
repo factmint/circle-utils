@@ -8,7 +8,7 @@ define(function() {
 		getPointOnCircle: function(x, y, radius, angle) {
 			return {
 				x: x + radius * Math.sin(angle),
-				y: y + radius * Math.cos(angle)
+				y: y + -radius * Math.cos(angle)
 			};
 		},
 		getAngle: function(value, dataTotal, totalSize) {
